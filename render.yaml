@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: healthcare-appointment-management-system
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
